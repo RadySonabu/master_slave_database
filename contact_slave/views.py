@@ -21,9 +21,9 @@ class Contact_A02View(viewsets.ModelViewSet):
 
 class Group_A00View(viewsets.ModelViewSet):
     queryset = Group_A00Slave.objects.all()
-    serialier_class = Group_A00SlaveSerializer
+    serializer_class = Group_A00SlaveSerializer
 
 
 class Group_A01View(viewsets.ModelViewSet):
     queryset = Group_A01Slave.objects.all()
-    serialier_class = Group_A01SlaveSerializer
+    serializer_class = Group_A01SlaveSerializer
